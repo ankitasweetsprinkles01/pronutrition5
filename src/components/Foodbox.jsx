@@ -10,6 +10,7 @@ export default class FoodBox extends Component {
           name: "orange",
           calories: 65,
           img: "https://www.kindpng.com/picc/m/155-1555808_oranges-png-image-orange-fruit-transparent-png.png",
+          
         },
         {
           name: "chocolate milk",
@@ -142,7 +143,7 @@ export default class FoodBox extends Component {
                   </div>
                 );
               })}
-          </div>
+            </div>
           <div className="right">
             <h1>Today's Food {this.state.calories_count} Calories</h1>
             {this.state.myFruits
